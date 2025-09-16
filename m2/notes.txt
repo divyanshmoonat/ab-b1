@@ -1,0 +1,38 @@
+Tailwind?
+CSS Framework => Ready made set of classes
+
+Documentation
+
+h-<px> => Height related classes
+w-<px> => Width related classes
+border-<px> => Border with thickness
+
+1rem => 16px (Reference from HTML Tag)
+1em => 16px (Reference from Parent Tag)
+
+1 => 16px
+2 => 32px
+.....
+n => 16n px
+
+spacing => 0.25rem
+
+1rem => 4 (x4)
+2rem => 8 (x4)
+3rem => 12 (x4)
+4rem => 16 (x4)
+....
+.....
+
+
+bordered-box => Border is included
+content-box => Border is not included
+
+sm => Small (640px)
+md => Medium (768px)
+lg => Large (1024px)
+xl => Extra Large (1280px)
+2xl => Double extra large (1536px)
+
+md:border-2 => min md and above
+lg:border-2 => min lg and above
