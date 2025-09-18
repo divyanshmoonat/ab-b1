@@ -76,3 +76,38 @@ Layout
 
 flexbox => 2d
 grid => 3d
+======================================================
+18/09/2025
+
+Small property about background
+Flexbox => Horizontal and Vertical
+Grid => Layout
+Position =>
+    static => Default
+    realative 
+    absolute => wrt 1. Parent (If parent is not static) 2. Browser (If parent is static)
+    fixed => Always fixed at a position on web page
+    sticky => Behaves liked fixed at a specific condition
+
+GitHub => Google drive / One Drive / Dropbox
+Deployment on Github pages
+
+
+Google Drive / One Drive / Dropbox => Folder => Files & Docs & Images (Sharing with diff people)
+GitHub/BitBucket/GitLab/Azure Repos/Google Repo  => Repository => Code (Sharing with diff people)
+
+Git => Tool to use GitHub
+
+index.html => 
+
+Upload => Push
+Download => Pull
+
+1st time download => git clone
+subsequent downloads => git pull
+Push => 
+    add => Inform git about the file/changes (git add .)
+    commit => Write a message about what you changed. (git commit -m "<YOUR MESSAGE>")
+    push => Upload the code to github/bitbucket etc (git push)
+
+Hosting / Deployment => 

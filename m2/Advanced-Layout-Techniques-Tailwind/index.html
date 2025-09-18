@@ -11,36 +11,57 @@
     </style>
   </head>
   <body>
-    <!-- <div class="border-1 border-green-500 h-400">
-      <div class="border-8 border-blue-700 w-120 h-1/2 min-w-4xl ps-8 py-8 my-16 mx-8">
-        <h1>80% or 4/5</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vero sit laudantium mollitia a incidunt pariatur at inventore labore, ab, autem sequi dolorum exercitationem praesentium doloribus assumenda aut minima est? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur temporibus vel quas nemo laudantium. Ipsam ad, vitae, eum possimus exercitationem aliquid, dignissimos maxime enim voluptate praesentium culpa odit a illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente provident qui nisi fuga, iste architecto quos odit doloremque a adipisci voluptatem eaque assumenda beatae illo officia vero fugit velit alias!l Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic beatae facilis ab eveniet? Totam molestiae ex ad! Repellat ratione distinctio dolor natus non! Illum sed repellendus aperiam, cum velit minima.
-      </div>
-      <div class="border-2 border-red-700 h-1/2 w-1/4">25% or 1/4</div>
+    <!-- BG 100% -->
+    <!-- <div class="size-64 border-2 border-blue-400 bg-[url('./thumbnail.png')] bg-[size:100%_100%]"></div> -->
 
-      <span class="line-through">INR 450</span> INR 299
+    <!-- Flex Layout -->
+    <!-- <div class="flex gap-2 flex-wrap justify-center">
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">1</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">2</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">3</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">4</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">5</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">6</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">7</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">8</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">9</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">10</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">11</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">12</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">13</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">14</div>
+      <div class="size-48 bg-yellow-400 border-2 border-blue-300 shrink-0 flex justify-center items-center">15</div>
+    </div> -->
 
-      <p class="text-blue-700 text-lg/6 font-normal italic text-justify captialize">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere ratione architecto quasi veniam tenetur consequuntur, culpa cumque? Nulla incidunt repellat, ducimus commodi molestias excepturi ipsa voluptatum aliquid iure ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi earum dicta quaerat officiis. Sint magnam maxime cum quia dicta iste consectetur optio enim minima laborum, in ipsam quaerat quidem pariatur.
-      </p>
+    <!-- Grid -->
+    <div class="grid grid-cols-4 grid-rows-4 gap-4">
+      <header class="bg-pink-400 col-span-4 flex justify-center">HEADER</header>
+      <aside class="bg-pink-400 row-span-4 flex items-center px-4">SIDEBAR</aside>
+      <main class="bg-pink-400 row-span-4 col-span-2 flex items-center px-4">CONTENT/MAIN SECTION</main>
+      <aside class="bg-pink-400 row-span-4 flex items-center justify-end px-4">Sidebar 2</aside>
+      <footer class="bg-pink-400 col-span-4 flex justify-center">FOOTER</footer>
+    </div>
 
-      <div class="size-80 border-4 border-blue-600 m-8  rounded-lg bg-[url('./thumbnail.png')] bg-[size:100%_100%]"> -->
-<!-- Scrollable container -->
-<!-- Scrollable container -->
-        <div>
-          <div class="grid gap-4 grid-cols-4 grid-rows-8 m-8">
-            <div class="h-8 bg-pink-400 col-span-4"></div>
-            <div class="shadow-indigo-500/50 shadow-2xl row-span-6 bg-pink-400"></div>
-            <div class="col-span-3 bg-pink-400"></div>
-            <div class="col-span-3 row-span-5 bg-pink-400"></div>
-            <div class="bg-pink-400 col-span-4"></div>
-          </div>
-        </div>
-    <!-- </div> -->
-    <!-- </div> -->
+    <!-- Position : Relative -->
+    <div class="parent-relative border-4 border-red-300">
+      <div class="size-48 bg-blue-300 border-2">Box 1 Under Realtive Demo</div>
+      <div class="size-48 bg-blue-300 border-2 relative right-8"> Box 2 Under Relative Demo</div>
+    </div>
 
-    <div class="bg-blue-200 p-5 relative">
-        <div class="absolute top-5 left-5 w-24 h-24 bg-green-600">This is a absolute box</div>
-</div>
+    <!-- Position: Absolute -->
+    <div class="parent-absolute border-4 border-blue-300 ">
+      <div class="size-48 border-2 bg-red-300">Box 1 Under Absolute</div>
+      <div class="size-48 border-2 bg-red-300 top-8 left-16 relative">Box 2 Under Absolute</div>
+    </div>
+
+    <!-- Position: Fixed -->
+    <!-- <div class="fixed right-12 bottom-12 size-20 bg-orange-300">Whatsapp Icon</div> -->
+
+    <div>
+      <header class="sticky top-8">
+        Home AboutUs Contact Us
+      </header>
+      <div class="h-100vh"></div>
+    </div>
   </body>
 </html>
