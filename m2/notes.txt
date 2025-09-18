@@ -36,3 +36,43 @@ xl => Extra Large (1280px)
 
 md:border-2 => min md and above
 lg:border-2 => min lg and above
+---------------------------------------------------------------------------
+16/09/2025
+Padding -> Space between border and conten
+p-<number> => All 4 sides
+pl => Left
+pt => Top
+pr => Right
+pb => Bottom
+px => Horizontal
+py => Vertcal
+
+Margin -> Space outside the border and the parent/siblings
+
+m-<number>
+ml => Left
+mt => Top
+mr => Right
+mb => Bottom
+mx => Horizontal
+my => Vertcal
+
+Direction (languages)
+ltr
+rtl
+
+Background
+bg-<color>
+
+
+aspect-ratio => 200:400 (1:2) [3:4, 19:6]
+
+200x400 => 1:2
+100x200 => 1:2
+150x200 => 3:4
+
+
+Layout
+
+flexbox => 2d
+grid => 3d
