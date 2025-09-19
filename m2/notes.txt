@@ -111,3 +111,10 @@ Push =>
     push => Upload the code to github/bitbucket etc (git push)
 
 Hosting / Deployment => 
+======================================================================
+19-09-2025
+
+RegEx
+
+ES5 => ECMAScript v5
+ES6 => ECMAScript v6
