@@ -118,3 +118,42 @@ RegEx
 
 ES5 => ECMAScript v5
 ES6 => ECMAScript v6
+
+======================================================================
+22-09-2025
+
+Data types
+
+Primitive => Basic/Fundamental
+number
+string
+boolean
+null
+undefined
+
+Non Primitive => Created with the help of primitve data types
+Object
+Array
+
+Loop
+
+for => When you know how many times the loop is going to run
+while => When you don't know how many times the loop is going to run
+
+Array methods
+
+.forEach() => When you want to iterate over whole array and access every element easily
+map() => When you want to return a new array from a given array
+filter() => When you want to choose items based on condition
+// userNames.reduce()
+// userNames.find()
+
+
+? => Ternary operator (Alternate of if else)
+if(condition) {
+    true block
+} else {
+    false block
+}
+
+(condition) ? true block : false block
