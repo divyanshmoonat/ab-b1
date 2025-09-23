@@ -157,3 +157,30 @@ if(condition) {
 }
 
 (condition) ? true block : false block
+
+======================================================================
+23-09-2025
+
+DOM (Document Object Model) => HTML Tree representation in JS (document)
+
+html
+    head
+        script
+        style
+        meta
+    body
+        header
+            nav
+        section
+            main
+                article
+                    p
+                    img
+                    h1
+        footer
+
+jQuery
+React
+Angular
+Vue
+etc...
