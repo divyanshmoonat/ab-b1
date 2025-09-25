@@ -184,3 +184,25 @@ React
 Angular
 Vue
 etc...
+
+======================================================================
+25-09-2025
+
+// Events => Any action/interaction happeing on DOM
+click
+load
+unloading
+focus
+blur
+scroll
+
+DOM => load, unloading, scroll etc
+Mouse => click, double click, mouseover, mouseout etc
+Keyboard => keydown, keyup etc
+
+Phases of Events
+1. Capture (Top to bottom)
+2. Target (Actually clicked element target)
+3. Bubble (Bottom to top)
+
+HTML -> Body -> Outer -> Middle -> Inner -> Button
