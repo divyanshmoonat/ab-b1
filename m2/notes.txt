@@ -206,3 +206,38 @@ Phases of Events
 3. Bubble (Bottom to top)
 
 HTML -> Body -> Outer -> Middle -> Inner -> Button
+======================================================================
+26-09-2025
+
+Computer => Programs => Process => Thread
+
+Sync => Step by step execution
+Async => Step by step execution with BG OPERATION ENBALED FOR TIME CONSUMING TASKS
+
+
+Line 1 => console.log("Hello"); => 5ms
+Line 2 => a+b => 5ms
+Line 3 => func() {//calculation} => 7ms
+Line 4 => network related operation => 2min (bg execution)
+Line 5 => console.log("hey") => 3ms
+Line 6 => x+y+z => 4ms
+Line 7 => file read operation (video play) => 3min (bg execution)
+Line 8 => a+b => 2ms
+Line 9 
+Line 10 
+
+
+Async
+setTimeout()
+setInterval()
+setImmediate() => Ignore
+promise (VIMP Topic) => Something which will happen after some time
+    States of a promise
+        1. Pending
+        2. Fulfilled
+        3. Rejected
+
+Promise -> Fulfilled / Resolved
+Promise -> Rejected / Failed
+
+API => Application Programing Interface
