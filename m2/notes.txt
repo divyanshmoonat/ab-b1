@@ -241,3 +241,60 @@ Promise -> Fulfilled / Resolved
 Promise -> Rejected / Failed
 
 API => Application Programing Interface
+
+======================================================================
+30-09-2025
+
+Library => React (UI Library), jQuery (DOM Manipulation)
+Framework => Angular, Nextjs
+
+Nextjs -> Reactjs -> Js
+
+React? JS Library 
+2013, Facebook 
+1. Fast (Performance Oriented)
+2. Easy to learn
+
+ReactJS v1.... v19
+
+Vanilla JS => Actual/Real DOM
+React JS => Virtual DOM (Binary Tree)
+
+JSX (JavaScript & XML) => React's own way of writing code
+JSX => Browser doesn't understands
+
+Split code into as smaller units as possible/No repetition of code / Split code / Write once, use many times
+Header.jsx
+Footer.jsx
+Section.jsx
+Links.jsx
+
+Bundling => script.js
+
+Conversion : JSX -> JS
+Babel Compiler / Transpiler: JSX Input -> JS Output
+
+Pre requisits for ReactJS
+Learning
+    1. JSX
+Execution
+    1. Babel
+    2. Webpack
+    3. Live Server / (HMR) Hot Module Reload
+
+NodeJS => JavScrit Runtime Environment
+
+JDK =>  Java Dev Kit
+JRE =>  Java Runtime Environment
+
+CLI => Command Line Interface
+GUI => Graphical User Interface
+
+Boilerplate => Basic folder & files configured to work with any technology/library/framework.
+
+
+To run project from my github
+git pull/download
+go to project folder
+npm install / npm i
+npm run dev
