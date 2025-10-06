@@ -298,3 +298,17 @@ git pull/download
 go to project folder
 npm install / npm i
 npm run dev
+
+======================================================================
+06-10-2025
+
+
+Rules of writing React Code
+1. Component name must start with a capital letter.
+2. Closing of a tag/component is mandatory in react
+    <img></img>
+    <img />
+3. A react component generally returns HTML.
+
+function => component
+arguments/parameters => Props (Properties)
