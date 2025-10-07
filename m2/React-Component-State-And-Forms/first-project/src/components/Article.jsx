@@ -6,8 +6,9 @@ const Article = ({ title, description, image }) => {
       <div>
         <h2>{title}</h2>
         <p>{description}</p>
+        {description.length > 100 ? <b>Show Less</b> : <b>Show More</b>}
       </div>
-      <img className="article-img" src={image} />
+      {image !== undefined && <img className="article-img" src={image} />}
     </article>
   );
 };

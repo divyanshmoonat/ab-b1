@@ -1,6 +1,8 @@
 import Article from "./Article";
 
-function Content({ articles }) {
+function Content({ articles, getData }) {
+  console.log(getData);
+  getData(12345);
   return (
     <div>
       <Article
@@ -17,6 +19,11 @@ function Content({ articles }) {
         image={articles[2].image}
         title={articles[2].title}
         description={articles[2].description}
+      />
+      <Article
+        image={articles[3].image}
+        title={articles[3].title}
+        description={articles[3].description}
       />
     </div>
   );

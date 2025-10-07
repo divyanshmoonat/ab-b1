@@ -312,3 +312,23 @@ Rules of writing React Code
 
 function => component
 arguments/parameters => Props (Properties)
+
+======================================================================
+07-10-2025
+
+Render => Show
+
+Conditional statements in react JSX
+Conditional Rendering
+Ternary Operator (?) => (condition) ? true-stmt : false-stmt (if-else stmt)
+And Operator (&&) => (condition) && true-stmt (if stmt)
+
+
+useState =>
+let [variable-name, updater-fn] = useState(init-value);
+
+Synthetic events => Wrapper over normal js events (Cross browser compatability)
+
+Types of components in React
+1. Class based components : Older
+2. Functional components : Newer
