@@ -3,8 +3,11 @@ import Content from "./components/Content";
 import Header from "./components/Header";
 import Timer from "./components/Timer";
 import Form from "./components/Form";
+import Counter from "./components/Counter";
+import ClassDemo from "./components/ClassDemo";
 
 import "./App.css";
+import { useState } from "react";
 const articles = [
   {
     title:
@@ -38,16 +41,26 @@ const articles = [
 
 function App() {
   const getData = (data) => {
-    console.log("Data received in parent:", data);
+    // console.log("Data received in parent:", data);
+  };
+
+  const [show, setShow] = useState(true);
+
+  const onBtnClick = () => {
+    setShow(!show);
   };
 
   return (
     <div>
+      <Counter />
+      <ClassDemo />
+      {/* <button onClick={onBtnClick}>Toggle</button>
+      {show && <ClassDemo />}
       <Timer />
       <Header />
       <Content articles={articles} getData={getData} />
       <Footer />
-      <Form />
+      <Form /> */}
     </div>
   );
 }

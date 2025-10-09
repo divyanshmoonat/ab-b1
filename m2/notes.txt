@@ -332,3 +332,14 @@ Synthetic events => Wrapper over normal js events (Cross browser compatability)
 Types of components in React
 1. Class based components : Older
 2. Functional components : Newer
+
+======================================================================
+09-10-2025
+
+useEffect(callback-fn, dep-array); => If the value inside dep-array changes, it triggers callback-fn
+
+useEffect(callback-fn, []) => componentDidMount() --> 1
+useEffect(callback-fn) => componentDidUpdate() --> n
+useEffect(() => {
+    return fn; // Return fn -> componentWillUnmount() --> 1
+},[])
