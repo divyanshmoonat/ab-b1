@@ -343,3 +343,27 @@ useEffect(callback-fn) => componentDidUpdate() --> n
 useEffect(() => {
     return fn; // Return fn -> componentWillUnmount() --> 1
 },[])
+
+======================================================================
+10-10-2025
+1xx
+2xx => Successful (200,201,204)
+3xx => Redirection
+4xx => Client Error (400, 404)
+5xx => Server error (500, 502, 503)
+
+API => URL & Method
+URL/EndPoint => https://abc.com/user
+Method => 
+GET => Get the data from server (E.g get list of tods, get list of products, get list of users, get product details)
+POST => Send data to the server (E.g user registration, login, enquiry forms, placing an order on ecomm)
+PUT
+PATCH
+DELETE
+
+GET /todos-list
+POST /login
+
+Routing
+1. Client side
+2. Server side => next.js
