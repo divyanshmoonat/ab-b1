@@ -2,7 +2,6 @@ import Article from "./Article";
 
 function Content({ articles, getData }) {
   // console.log(getData);
-  getData(12345);
   return (
     <div>
       {articles.map((article) => {

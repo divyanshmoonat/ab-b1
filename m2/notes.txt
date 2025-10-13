@@ -367,3 +367,25 @@ POST /login
 Routing
 1. Client side
 2. Server side => next.js
+
+======================================================================
+13-10-2025
+
+/product-name/dp
+/product/product-name
+/product/mobile
+/product/headphones
+/product/washing-machine
+/product/<PRODUCT_NAME>
+
+/product/<PRODUCT_ID>
+/product/1
+/product/2
+/product/xyz
+
+
+Dashboard => Reactjs
+User Facing Site => Nextjs
+
+SSG (Static Site Generation)
+ISR (Incremental Static Rendering)
