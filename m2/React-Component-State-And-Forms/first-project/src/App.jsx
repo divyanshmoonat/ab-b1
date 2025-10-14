@@ -1,4 +1,6 @@
 import React, { useState, createContext, Suspense } from "react";
+import { Provider } from "react-redux";
+
 import Footer from "./components/Footer";
 import Content from "./components/Content";
 import Header from "./components/Header";
@@ -21,6 +23,7 @@ import Layout from "./components/Layout";
 import ProductDetails from "./components/ProductDetails";
 import NotFound from "./pages/NotFound";
 import A from "./components/A";
+import store from "./redux/store/store";
 
 const router = createBrowserRouter([
   {
@@ -50,23 +53,13 @@ const router = createBrowserRouter([
   },
 ]);
 
-export const Context = createContext();
-
 function App() {
-  const [data, setData] = useState({
-    name: "Peter",
-    age: 10,
-  });
-
   return (
-    <Suspense fallback={<h1>Loading....</h1>}>
-      <Context.Provider value={{ data, setData }}>
-        {/* <div>
-        <A />
-      </div> */}
+    <Provider store={store}>
+      <Suspense fallback={<h1>Loading....</h1>}>
         <RouterProvider router={router} />
-      </Context.Provider>
-    </Suspense>
+      </Suspense>
+    </Provider>
   );
 }
 

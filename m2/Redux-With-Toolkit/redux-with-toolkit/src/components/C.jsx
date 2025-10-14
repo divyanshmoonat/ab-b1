@@ -1,16 +1,13 @@
-import store from "../redux/store/store";
+import { useDispatch } from "react-redux";
+import { updateMobNo, updateName } from "../redux/slices/userSlice";
 
 const C = () => {
+  const dispatch = useDispatch();
+
   const onBtnClick = () => {
     // Update the data in redux store
-    store.dispatch({
-      type: "UPDATE_NAME",
-      payload: "Peter",
-    });
-    store.dispatch({
-      type: "UPDATE_MOBNO",
-      payload: "111111111",
-    });
+    dispatch(updateName("Peter"));
+    dispatch(updateMobNo("1111111111"));
   };
 
   return (

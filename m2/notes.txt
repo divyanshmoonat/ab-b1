@@ -389,3 +389,11 @@ User Facing Site => Nextjs
 
 SSG (Static Site Generation)
 ISR (Incremental Static Rendering)
+
+======================================================================
+14-10-2025
+Redux
+    Store
+    Reducer
+    Action
+Middleware => Redux thunk => Action as function
