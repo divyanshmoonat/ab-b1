@@ -24,6 +24,7 @@ import ProductDetails from "./components/ProductDetails";
 import NotFound from "./pages/NotFound";
 import A from "./components/A";
 import store from "./redux/store/store";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 const router = createBrowserRouter([
   {
@@ -56,9 +57,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <Provider store={store}>
-      <Suspense fallback={<h1>Loading....</h1>}>
-        <RouterProvider router={router} />
-      </Suspense>
+        <ErrorBoundary>
+          <Content />
+        </ErrorBoundary>
     </Provider>
   );
 }

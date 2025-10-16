@@ -397,3 +397,20 @@ Redux
     Reducer
     Action
 Middleware => Redux thunk => Action as function
+
+======================================================================
+16-10-2025
+Api1 
+    => Resopnse
+        => Api2
+            => Response
+                => Api3
+
+Syntax errors
+API Errors/Promise based error
+Logical error
+
+Error Boundary => Catching the application error
+
+Host/Deploy => Putting your app on server (on internet) so that everyone can use it
+
