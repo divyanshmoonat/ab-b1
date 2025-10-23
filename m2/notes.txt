@@ -437,3 +437,32 @@ Prev result + next number
 6 +4
 10+5
 15+6
+
+======================================================================
+23-10-2025
+
+Library
+    Smaller set of classes and methods
+    Mostly need 3rd party dependencies
+
+Framework
+    Larger set of classes and methods
+    Very less need of 3rd party dependencies
+
+React? => Library based on JS
+    CSR (Client Side Rendering)
+    
+
+NextJS? => React based framework
+    Routing
+    SSR (Server Side Rendering)
+
+Routing
+    / => /app (page.js)
+    /about-us => src/app/about-us/page.js 
+    /contact-us => src/app/contact-us/page.js
+    /article => src/app/article/pagejs (Article list)
+    /article/1
+    /article/2
+    /article/3
+    /article/<ARTICLE-ID> => src/app/article/[articleId]
