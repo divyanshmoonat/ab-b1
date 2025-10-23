@@ -414,3 +414,26 @@ Error Boundary => Catching the application error
 
 Host/Deploy => Putting your app on server (on internet) so that everyone can use it
 
+======================================================================
+17-10-2025
+
+Optimization
+
+useState()
+useEffect()
+
+useMemo() => Cache the computed value of a function (returned value from a function) unless the deps changes
+useCallback() => Cache the function itself i.e when the component re renders and it has a function, no new reference of the fn is created unless the deps changes
+
+memo() => Memoization (Caching)
+Pure Components => Which does not render unless a prop has changed (class Child extends React.PureComponent)
+
+
+0+1 => 1
+1 + 2 => 3
+3 + 3 => 6
+Prev result + next number
+
+6 +4
+10+5
+15+6
