@@ -1,3 +1,7 @@
+export const metadata = {
+    title: "Contact Us"
+}
+
 const ContactUsPage = () => {
     return (
         <>
