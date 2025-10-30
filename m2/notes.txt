@@ -466,3 +466,20 @@ Routing
     /article/2
     /article/3
     /article/<ARTICLE-ID> => src/app/article/[articleId]
+
+======================================================================
+30-10-2025
+Cypress => E2E Testing framework
+
+
+Test cases => it() it() it() it()
+Test suite => describe()
+
+Form based libraries => Formik & Redux-forms
+UI Libraries => Material UI & Ant Design
+Middleware => Redux thunk
+Projects
+
+Redux
+
+Component -> Trigger/Dispatch action  ===> MIDDLEWARE (redux thunk) (INPUT: fn, OUTPUT: obj) -> Reducers -> Store -> Component
